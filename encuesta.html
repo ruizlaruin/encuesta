@@ -1,0 +1,83 @@
+<!DOCTYPEhtml>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    
+    <title>Encuesta interpretes 2020</title>
+  </head>
+  <body>
+    <h1 align="center">Encuesta Interpretes 2020</h1>
+    <div>
+      <p>Favor responder de manera honesta ya que dado el caso se requeriran certificaciones</p>
+      <br>
+      <form>
+        <label for="correo electronico">Correo electronico</label>
+        <input id="correo electronico" name="correo electronico" type="text" placeholder="ejemplo@ejemplo.com">
+	<br>
+        <label for="nombre">Nombres</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Ej. Luisa">
+	<br>
+	<label for="apellido">Apellidos</label>
+	<input id="apellido" name="apellido" type="text" placeholder="Ej. Garcia">
+	<br>
+	<label for="ciudad">Ciudad o Municipio de Residencia</label>
+	<input id="ciudad" name="ciudad" type="text" placeholder="Ej. Girardot">
+	<br>
+	<label for="direccion"> Direccion de Residencia</label>
+	<input id="direccion" name="direccion" type="text" placeholder="Ej. Calle 6 # 7-27 Casa 69 Barrio Centro">
+	<br>
+	<label for="cedula">Numero de Cedula</label>
+	<input id="cedula" name="cedula" type="number" placeholder="Ej. 52013741">
+	<br>
+	<label for="telefono">Numero de Telefono de Contacto</label>
+	<input id="telefono" name="telefono" type="number" placeholder="Ej. 3201234567">
+	<br>
+	<br>
+	<span>Cursos de L.S.C. con FENSACOL</span>
+	<input id="cursoslsc" name="cursoslsc" list="cursosfenascol">
+	<datalist id="cursosfenascol"> value="Curso VI obtenido por competencia linguistica">
+	  <option value="Curso VI obtenido por competencia linguistica"></option>
+	  <option value="Curso inicial VI presencial"></option>
+	  <option value="Curso Intermedio I"></option>
+	  <option value="Curso Intermedio II"></option>
+	  <option value="No cuenta con cursos"></option>
+	</datalist>
+	<br>
+	<span>Fundamentos de interpretacion con FENASCOL</span>
+	<br>
+	<input id="presencial" name="Fundamentos de interpretacion" type="radio" value="presencial>
+	<label for="presencial">Presencial</label>
+	<br>
+	<input id="virtual" name="Fundamentos de interpretacion" type="radio" value="virtual"
+	<label for="virtual">Virtual</label>
+	<br>
+	<input id="no aplica" name="Fundamentos de interpretacion" type="radio" value="no aplica">
+	<label for="no aplica">No Aplica</label>
+	<br>
+	<span>Talleres o cursos de interpretacion. Describa cuales.<span>
+	<br>
+	<textarea id="cursosdeinterpretacion" name="Talleres o cursos de interpretacion" placeholder="Todos los que haya completado." rows="5" cols="50">
+	</textarea>
+	<br>
+	<span>Nivel Educativo<span>
+	<br>
+	<select id="niveleducativo" name="nivel educativo">
+	  <option value="Educacion basica o media secundaria">Educacion basica o media secundaria</option>
+	  <option value="Tecnico">Tecnico</option>
+	  <option value="Tecnologico">Tecnologico</option>
+	  <option value="Estudiante de Pregrado">Estudiante de Pregrado</option>
+	  <option value="Pregrado">Pregrado</option>
+	  <option value="Estudiante de Postgrado">Estudiante de Postgrado</option>
+	  <option value="Postgrado">Postgrado (Especializacion, maestria, doctorado)</option>
+	</select>
+	<br>
+	<label for="experiencia">Experiencia en interpretacion en años</label>
+	<br>
+	<input id="experiencia" name="experiencia en interpretacion en años" type="number" step="1" min="0">
+	
+      </form>
+    </div>
+    <a href="./index.html">Regresar a Calendario</a>
+  </body>
+
+
+</html>
